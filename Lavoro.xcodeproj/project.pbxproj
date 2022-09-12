@@ -1,0 +1,429 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		313A28E228B66C0E00CC278C /* LavoroApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 313A28E128B66C0E00CC278C /* LavoroApp.swift */; };
+		313A28E428B66C0E00CC278C /* TaskListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 313A28E328B66C0E00CC278C /* TaskListView.swift */; };
+		313A28E628B66C0F00CC278C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 313A28E528B66C0F00CC278C /* Assets.xcassets */; };
+		313A28E928B66C0F00CC278C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 313A28E828B66C0F00CC278C /* Preview Assets.xcassets */; };
+		313A28EE28B66C0F00CC278C /* Lavoro.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 313A28EC28B66C0F00CC278C /* Lavoro.xcdatamodeld */; };
+		313A28F928B6739500CC278C /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 313A28F828B6739500CC278C /* CoreDataManager.swift */; };
+		317CC45128BA36140017A7D9 /* TaskRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 317CC45028BA36140017A7D9 /* TaskRowView.swift */; };
+		317CC45328BA380F0017A7D9 /* Color+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 317CC45228BA380F0017A7D9 /* Color+Extensions.swift */; };
+		317CC45528BA39C30017A7D9 /* TaskViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 317CC45428BA39C30017A7D9 /* TaskViewModel.swift */; };
+		31B2A11928BF724900FBC8C5 /* TaskAddViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31B2A11828BF724900FBC8C5 /* TaskAddViewModel.swift */; };
+		31B2A11B28BF727500FBC8C5 /* TaskAddView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31B2A11A28BF727500FBC8C5 /* TaskAddView.swift */; };
+		31B2A11D28BF7A8F00FBC8C5 /* BaseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31B2A11C28BF7A8F00FBC8C5 /* BaseModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		313A28DE28B66C0E00CC278C /* Lavoro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Lavoro.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		313A28E128B66C0E00CC278C /* LavoroApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LavoroApp.swift; sourceTree = "<group>"; };
+		313A28E328B66C0E00CC278C /* TaskListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskListView.swift; sourceTree = "<group>"; };
+		313A28E528B66C0F00CC278C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		313A28E828B66C0F00CC278C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		313A28ED28B66C0F00CC278C /* Lavoro.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Lavoro.xcdatamodel; sourceTree = "<group>"; };
+		313A28F828B6739500CC278C /* CoreDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
+		317CC45028BA36140017A7D9 /* TaskRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskRowView.swift; sourceTree = "<group>"; };
+		317CC45228BA380F0017A7D9 /* Color+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Extensions.swift"; sourceTree = "<group>"; };
+		317CC45428BA39C30017A7D9 /* TaskViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskViewModel.swift; sourceTree = "<group>"; };
+		31B2A11828BF724900FBC8C5 /* TaskAddViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskAddViewModel.swift; sourceTree = "<group>"; };
+		31B2A11A28BF727500FBC8C5 /* TaskAddView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskAddView.swift; sourceTree = "<group>"; };
+		31B2A11C28BF7A8F00FBC8C5 /* BaseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseModel.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		313A28DB28B66C0E00CC278C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		313A28D528B66C0E00CC278C = {
+			isa = PBXGroup;
+			children = (
+				313A28E028B66C0E00CC278C /* Lavoro */,
+				313A28DF28B66C0E00CC278C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		313A28DF28B66C0E00CC278C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				313A28DE28B66C0E00CC278C /* Lavoro.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		313A28E028B66C0E00CC278C /* Lavoro */ = {
+			isa = PBXGroup;
+			children = (
+				31B2A11628BF6F9A00FBC8C5 /* Managers */,
+				31B2A11328BF6F6900FBC8C5 /* Tasks */,
+				31B2A11428BF6F7800FBC8C5 /* Support */,
+				313A28E528B66C0F00CC278C /* Assets.xcassets */,
+				313A28E128B66C0E00CC278C /* LavoroApp.swift */,
+				313A28EC28B66C0F00CC278C /* Lavoro.xcdatamodeld */,
+				313A28E728B66C0F00CC278C /* Preview Content */,
+			);
+			path = Lavoro;
+			sourceTree = "<group>";
+		};
+		313A28E728B66C0F00CC278C /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				313A28E828B66C0F00CC278C /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		31B2A11328BF6F6900FBC8C5 /* Tasks */ = {
+			isa = PBXGroup;
+			children = (
+				31B2A11728BF701900FBC8C5 /* ViewModels */,
+				31B2A11528BF6F8500FBC8C5 /* Views */,
+			);
+			path = Tasks;
+			sourceTree = "<group>";
+		};
+		31B2A11428BF6F7800FBC8C5 /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				317CC45228BA380F0017A7D9 /* Color+Extensions.swift */,
+				31B2A11C28BF7A8F00FBC8C5 /* BaseModel.swift */,
+			);
+			path = Support;
+			sourceTree = "<group>";
+		};
+		31B2A11528BF6F8500FBC8C5 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				313A28E328B66C0E00CC278C /* TaskListView.swift */,
+				317CC45028BA36140017A7D9 /* TaskRowView.swift */,
+				31B2A11A28BF727500FBC8C5 /* TaskAddView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		31B2A11628BF6F9A00FBC8C5 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				313A28F828B6739500CC278C /* CoreDataManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		31B2A11728BF701900FBC8C5 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				317CC45428BA39C30017A7D9 /* TaskViewModel.swift */,
+				31B2A11828BF724900FBC8C5 /* TaskAddViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		313A28DD28B66C0E00CC278C /* Lavoro */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 313A28F128B66C0F00CC278C /* Build configuration list for PBXNativeTarget "Lavoro" */;
+			buildPhases = (
+				313A28DA28B66C0E00CC278C /* Sources */,
+				313A28DB28B66C0E00CC278C /* Frameworks */,
+				313A28DC28B66C0E00CC278C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Lavoro;
+			productName = Lavoro;
+			productReference = 313A28DE28B66C0E00CC278C /* Lavoro.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		313A28D628B66C0E00CC278C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					313A28DD28B66C0E00CC278C = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+				};
+			};
+			buildConfigurationList = 313A28D928B66C0E00CC278C /* Build configuration list for PBXProject "Lavoro" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 313A28D528B66C0E00CC278C;
+			productRefGroup = 313A28DF28B66C0E00CC278C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				313A28DD28B66C0E00CC278C /* Lavoro */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		313A28DC28B66C0E00CC278C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				313A28E928B66C0F00CC278C /* Preview Assets.xcassets in Resources */,
+				313A28E628B66C0F00CC278C /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		313A28DA28B66C0E00CC278C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				313A28E428B66C0E00CC278C /* TaskListView.swift in Sources */,
+				31B2A11928BF724900FBC8C5 /* TaskAddViewModel.swift in Sources */,
+				317CC45128BA36140017A7D9 /* TaskRowView.swift in Sources */,
+				313A28EE28B66C0F00CC278C /* Lavoro.xcdatamodeld in Sources */,
+				317CC45328BA380F0017A7D9 /* Color+Extensions.swift in Sources */,
+				31B2A11D28BF7A8F00FBC8C5 /* BaseModel.swift in Sources */,
+				313A28F928B6739500CC278C /* CoreDataManager.swift in Sources */,
+				317CC45528BA39C30017A7D9 /* TaskViewModel.swift in Sources */,
+				313A28E228B66C0E00CC278C /* LavoroApp.swift in Sources */,
+				31B2A11B28BF727500FBC8C5 /* TaskAddView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		313A28EF28B66C0F00CC278C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		313A28F028B66C0F00CC278C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		313A28F228B66C0F00CC278C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Lavoro/Preview Content\"";
+				DEVELOPMENT_TEAM = 2ZSVG66847;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = me.proft.Lavoro;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		313A28F328B66C0F00CC278C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Lavoro/Preview Content\"";
+				DEVELOPMENT_TEAM = 2ZSVG66847;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = me.proft.Lavoro;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		313A28D928B66C0E00CC278C /* Build configuration list for PBXProject "Lavoro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				313A28EF28B66C0F00CC278C /* Debug */,
+				313A28F028B66C0F00CC278C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		313A28F128B66C0F00CC278C /* Build configuration list for PBXNativeTarget "Lavoro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				313A28F228B66C0F00CC278C /* Debug */,
+				313A28F328B66C0F00CC278C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		313A28EC28B66C0F00CC278C /* Lavoro.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				313A28ED28B66C0F00CC278C /* Lavoro.xcdatamodel */,
+			);
+			currentVersion = 313A28ED28B66C0F00CC278C /* Lavoro.xcdatamodel */;
+			path = Lavoro.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 313A28D628B66C0E00CC278C /* Project object */;
+}
